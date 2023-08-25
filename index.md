@@ -9,21 +9,19 @@ title: Student Blog
         }
     </style>
 </head>
- 
-<h1> Krishiv APCSA FASTPAGES</h1>
+ <div class= "fix-align">
+<h1> Krishiv APCSA </h1>
 
 {% include nav_home.html %}
-----------------------------------
-<div class="fix-align">
+---------------------------------------------------------------------------------------------
 
-<h2> Hello My name is Krishiv Mahendru and Welcome To My Github Pages
-</h2>
+
 <style>
  .fix-align {
    text-align: center;
    position: relative;
  }
-</style></div>
+</style>
 
  <div class="center-image">
         <img src="/student/images/art.png" alt="Smaller Image" width="900" height="800">
