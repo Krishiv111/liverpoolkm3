@@ -39,13 +39,31 @@ Load all posts with site
 <!-- Output Column Headings for Blogs -->
 {%endcomment%}
 
-<table>
+<table class="styled-table">
   <tr>
     <th>Week</th>
     <th>Plans</th>
     <th>Hacks(Todo)</th>
     <th>Tangibles</th>
   </tr>
+  <style>
+    .styled-table {
+      border-collapse: collapse; /* This ensures the borders are merged */
+      width: 100%;
+      border: 1px solid #ddd; /* Border for the entire table */
+    }
+  
+    .styled-table th, .styled-table td {
+      border: 1px solid #ddd; /* Border for table header cells and data cells */
+      padding: 8px; /* Add padding to improve visual appearance */
+      text-align: left; /* Align text to the left in cells */
+    }
+  
+    .styled-table th {
+      background-color: #f2f2f2; /* Background color for table header cells */
+    }
+  </style>
+  
 
   {%comment%} 
   <!-- These loops group blogs according to Row (week) and Column (category) 

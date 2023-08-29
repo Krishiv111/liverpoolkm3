@@ -24,7 +24,7 @@ title: Student Blog
 </style>
 
  <div class="center-image">
-        <img src="/student/images/art.png" alt="Smaller Image" width="900" height="800">
+        <img src="/liverpoolkm2/images/art.png" alt="Smaller Image" width="900" height="800">
     </div>
 
  <style>
