@@ -5,7 +5,7 @@ layout: post
 title: Krishiv's Calculator
 description: Krishiv's Calculator
 courses: { lab: {week: 2}, csa: {week: 2} }
-type: hacks
+type: tangibles
 ---
 
 <html>

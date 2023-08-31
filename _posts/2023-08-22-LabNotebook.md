@@ -1,7 +1,11 @@
 ---
-layout: default
-permalink: /labnotebook
-title: Lab Notebook
+toc: true
+comments: true
+layout: post
+title: Gme of Life 
+description: CSA GAME INCORPORATION
+courses: { lab: {week: 2}, csa: {week: 1} }
+type: Plans
 ---
 <div class = head>
 <h1> Week 0</h1>
