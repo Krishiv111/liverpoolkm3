@@ -2,7 +2,7 @@
 toc: true
 comments: true
 layout: post
-title: Gme of Life 
+title: Week 0/1 Plan 
 description: CSA GAME INCORPORATION
 courses: { lab: {week: 2}, csa: {week: 1} }
 type: Plans
