@@ -1,6 +1,5 @@
 ---
 toc: true
-comments: true
 layout: post
 title: Krishiv's Calculator
 description: Krishiv's Calculator
