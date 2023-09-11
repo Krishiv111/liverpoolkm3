@@ -77,13 +77,11 @@ type: Plans
             <td>Wednesday</td>
             <td><input type="checkbox">Keep up with blgoggin<br> <input type="checkbox">Work on Calculator project. </td>
             <td>Today I worked on better customization of the site to get a better insight of logging my ideas, also I worked on the integraation project to get a better understanding of js by creating a calculator and understanding how each command works. I will continue working on this tomorrow and begin to polish for my live review which is scheduled for friday.   </td>
-        
-        </tr>
-        <tr>
+         </tr>
+<tr>
             <td>Thursday</td>
             <td><input type="checkbox">Keep up with blgoggin<br> <input type="checkbox">Polish for live review </td>
             <td>Today I worked on keeping up with my blog live notebook and recording insights from teh week also I created a about me page and finsihed my calculator tomorrow I am ready for my review.  </td>
-        
-        </tr>
-    </table>
+ </tr>
+</table>
 </body>
