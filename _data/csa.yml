@@ -1,4 +1,9 @@
 # CSP course meta data
+Unit3:
+  title: Project Unit
+  description: Work toward creation of tam lesson and passion project
+  start: 8
+  end: 12
 Unit2:
   title: Java Units
   description: Work on Java Fundamentals and Get a better understanding about spring, along with work on and plan projects.
