@@ -1,7 +1,7 @@
 ---
 toc: true
 layout: post
-title: Individual Blog For Hacks 
+title: Weekly Plans
 courses: { csa: {week: 8} }
 type: plans
 ---
