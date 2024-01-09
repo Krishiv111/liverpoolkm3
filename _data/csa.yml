@@ -1,4 +1,9 @@
 # CSP course meta data
+Unit5:
+  title:  Creative Development Ideas and Concepts
+  description: This will be the most creative portion of the year for CSA 
+  start: 17
+  end: 19
 Unit4:
   title: Lessons and More
   description: Tracking completion and knowlege of java concepts
