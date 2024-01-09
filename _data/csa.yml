@@ -1,4 +1,9 @@
 # CSP course meta data
+Unit4:
+  title: Lessons and More
+  description: Tracking completion and knowlege of java concepts
+  start: 13
+  end: 16
 Unit3:
   title: Project Unit
   description: Work toward creation of tam lesson and passion project
