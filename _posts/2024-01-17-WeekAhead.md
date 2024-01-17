@@ -1,9 +1,9 @@
 ---
 toc: true
 layout: post
-title: 2015 MCQ REVIEW
+title: Ideation Week Plan
 courses: { csa: {week: 19} }
-type: tangibles
+type: plans
 ---
 
 
