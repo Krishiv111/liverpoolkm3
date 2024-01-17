@@ -6,6 +6,7 @@ courses: { csa: {week: 8} }
 type: plans
 ---
 
+# Weekly Goals 
 
-# CHECK GITHUB
-- integration week on github
+- Add to the lessons and complete student hacks 
+- Add to more of the different lessons.
