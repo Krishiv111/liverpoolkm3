@@ -1,0 +1,21 @@
+---
+toc: true
+layout: post
+title: Deployment Guide
+courses: { csa: {week: 20} }
+type: hacks
+---
+
+# Study Guide/Questions.
+
+-Show JWT signup and/or login process
+- Explain a POJO and changes to POJO
+- Explain security configuration rules that required for access
+- Describe docker and process for update docker application
+- Describe route 53 and process for domain setup
+- Show API access code and error handling, specifically redirect on 403
+- Describe managing CORS policies through Nginx and Java
+- Describe reverse proxy of server_name to proxy_pass
+
+
+
