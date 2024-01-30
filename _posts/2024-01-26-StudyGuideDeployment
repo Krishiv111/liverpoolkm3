@@ -8,7 +8,7 @@ type: hacks
 
 # Study Guide/Questions.
 
--Show JWT signup and/or login process
+- show JWT signup and/or login process
 - Explain a POJO and changes to POJO
 - Explain security configuration rules that required for access
 - Describe docker and process for update docker application
@@ -18,4 +18,50 @@ type: hacks
 - Describe reverse proxy of server_name to proxy_pass
 
 
+# Question 1. 
+- Pojo stands for plain old java object is the idea that java obest must pass these rules 
+    - class must be public 
+    - properties must be private 
+    - you must have public default construct which is a constructor w/out arguments
+    - every property should have public getter and setter methods. 
+- Some changes of pojo include like annoation and readability with ease to allow for readabilty have been employed within POJO
 
+### Rules of Pojo
+- cant extend any class
+- cant implement anything (extra libraries and interfaces)
+- cant use any outside annotations(no such as @entity)
+
+# Question 2  Explain Pojo and Changes to Pojos 
+- If a pojo is used ina serialized form meaning that it can implements serializable which means this oject can be written to databases or files 
+- with these new changes we need to make sure tehy are backward comparbile to the old feature. 
+
+# Question 3 Explain Security config rules that are required for acsess
+- Through a user name and password you can restirct acsess and have roles within a program
+- Some rueles are the username and passwords authenitcation ruels 
+- ecnyroption
+- https secure comunicaiton rules 
+- within the spring security Securityconfig.java uses request matchers which allows for only certian roles to complete certain crud functions into a database. this is kown as RBAC role based acsess control allows for a secure system. 
+
+# Question 4 What is docker and explain docker automation
+- docker is a way to automate deployment throug the usage of containers. 
+- usage of dockerfile-compose.yml  is to compose the dependencies for file and mount the contaners along wit hdefiding your ports to teh container and deployed server 
+
+### Steps to Update Docker Application
+1. Pull the latest version of the Docker image from the container registry.
+2. Stop the running container(s) of the old version. (docker-compose down)
+3. Remove the old container(s) if necessary.
+4. Run a new container with the updated image, using the appropriate configurations. (docker-compose up -d)
+5. Ensure any necessary data or configurations are migrated or applied.
+
+# Describe Route 53 and the Process for a setup 
+- Route 53 is a way that allow for ip adress to be red into regular web browsers, its known as a domain name system or DNS in aws, this allows for a user to setup a route 53 and use an ip adress to get a request from one route to another
+- to setup route 53 go to hosted zones and add a record which allows you to add a record into the stu.nighhawk coding society for school projects this allows all records to be under 1 domain for easy organization, then you need to create your subdomain and then create a record type A which is a way to route adress to a IPV4
+
+# 5. Cors 
+- Cors is a cross orgins orders it occurs when trying to fetch an object from a backend to a frontend that  isnt authorized, to fix this issue go to the MVC.config to add the frontend repo, or add @crossorigins * which is a way to allow all frontend to request however this isnt suitable when having a running project becuase you dont want all domains to make a request and acess db so when fiinished with development change this to a certain link.
+
+
+# 6. Proxy
+- Nignx is a way to reverse server proxy as it sends the request to the backend from the forntend.
+- nginx reverse proxy is a way that the backend recives request from the forntend through the nignx file it allows for the correct acsess and mehods which allows for post put get and delete. In addition it allows for authentication 
+- the server name is set within the nginx file where it allows for request such as post and put which corresponds with the reverse proxy_pass a reverse proxy which manages all teh request coming from the server_name
