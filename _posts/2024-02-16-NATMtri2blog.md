@@ -50,3 +50,18 @@ type: hacks
 </html>
 
 
+# A project outriside of CS 
+
+- A project I liked outside of computer science was this ceramics project that took shape in a form of a plane along with a runway that had a surfboard. I really liked it becuase it reminded me of when I was in ceramcis and I now ow hard creating pieces out of clay are due to the fact you have to perfect the clay and water to create a balance for a sturdy structure. 
+
+<html>
+<style>
+.centered-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%; 
+}
+</style >
+<img src="{{site.baseurl}}/images/airport.JPG" alt="Image" class="centered-image">
+
+</html>
