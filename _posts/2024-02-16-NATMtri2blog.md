@@ -4,6 +4,7 @@ layout: post
 title: Natm Blog
 courses: { csa: {week: 19} }
 type: hacks
+comments: true
 ---
 
 
