@@ -1,9 +1,14 @@
 # CSP course meta data
+Unit7:
+  title: FRQ's and 2 Trimester Project
+  description: This is the begining of code checks and start of tri 3 for the 2 tri project.
+  start: 25
+  end: 29
 Unit6:
   title: FRQ's and 2 Trimester Project
   description: This is the begining of code checks and start of tri 3 for the 2 tri project.
   start: 20
-  end: 25
+  end: 24
 Unit5:
   title:  Creative Development Ideas and Concepts
   description: This will be the most creative portion of the year for CSA 
