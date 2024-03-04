@@ -2,7 +2,7 @@
 toc: true
 layout: post
 title: Natm Blog
-courses: { csa: {week: 19} }
+courses: { csa: {week: 22} }
 type: hacks
 comments: true
 ---
