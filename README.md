@@ -1,3 +1,20 @@
+## ABOUT
+
+- Hello My name is krishiv Mahendru this is my personal repository to sere as a blog site for my learnings within my APCSA class I update this blog weekly basis so it would be great if you wanted to check it out.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Blog site using GitHub Pages and Jekyll
 > This site is intended for Students.   This is to record plans, complete hacks, and do work for your learnings.
 - This can be customized to support computer science as you work through pathway (JavaScript, Python/Flask, Java/Spring)
